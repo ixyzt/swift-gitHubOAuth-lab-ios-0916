@@ -21,7 +21,7 @@
 		5D2658CE1DBEE9A20012A702 /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2658CD1DBEE9A20012A702 /* RepositoryTableViewCell.swift */; };
 		5D2658D11DBEE9D20012A702 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2658CF1DBEE9D20012A702 /* Repository.swift */; };
 		5D2658D21DBEE9D20012A702 /* RepositoryDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2658D01DBEE9D20012A702 /* RepositoryDataStore.swift */; };
-		5D2658F31DC3814A0012A702 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2658F21DC3814A0012A702 /* Secrets.swift */; };
+		75914C421DCE86420011682E /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75914C411DCE86420011682E /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,7 @@
 		5D2658CF1DBEE9D20012A702 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		5D2658D01DBEE9D20012A702 /* RepositoryDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryDataStore.swift; sourceTree = "<group>"; };
 		5D2658F11DC28D0E0012A702 /* GitHubOAuth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitHubOAuth.entitlements; sourceTree = "<group>"; };
-		5D2658F21DC3814A0012A702 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		75914C411DCE86420011682E /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		884A00365D992E58B2226BF9 /* Pods_GitHubOAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubOAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3E6B2A17527E9B50ECA724 /* Pods-GitHubOAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubOAuth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubOAuth/Pods-GitHubOAuth.debug.xcconfig"; sourceTree = "<group>"; };
 		C1E857D16CDEBAE02D2A0099 /* Pods-GitHubOAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubOAuth.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubOAuth/Pods-GitHubOAuth.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,8 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				5D2658BC1DBEE5810012A702 /* Constants.swift */,
+				75914C411DCE86420011682E /* Secrets.swift */,
 				5D2658C51DBEE8D00012A702 /* Extensions.swift */,
-				5D2658F21DC3814A0012A702 /* Secrets.swift */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -295,7 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D2658CB1DBEE9950012A702 /* LoginViewController.swift in Sources */,
-				5D2658F31DC3814A0012A702 /* Secrets.swift in Sources */,
+				75914C421DCE86420011682E /* Secrets.swift in Sources */,
 				5D2658CC1DBEE9950012A702 /* RepositoryTableViewController.swift in Sources */,
 				5D2658C61DBEE8D00012A702 /* Extensions.swift in Sources */,
 				5D2658BD1DBEE5810012A702 /* Constants.swift in Sources */,
